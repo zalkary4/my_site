@@ -1,0 +1,158 @@
+body {
+    box-sizing: border-box;
+}
+
+.header__title_1 {
+    height: 40px;
+    background-color: rgb(32, 27, 27);
+}
+.header {
+    width: 1440px;
+    height: 305px;
+    background-color: rgb(73, 67, 67);
+    color: rgb(229, 231, 221);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header__title {
+    padding: 10px 0 ; 
+}
+
+.main {
+    max-width: 1240px;
+    height: 325px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.img {
+    padding-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    height: 250px;
+}
+
+.main-0 {
+    width: 1420px;
+    height: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(229, 231, 221);#fff;   
+}
+
+.main {
+    margin-top: 5px;
+}
+.main__link {
+    display: inline;
+    display: flex;
+    padding-top: 120px;
+    padding-left: 445px;
+    align-items:center;
+}
+
+.face,
+.instagram,
+.github,
+.notion {
+    width: 25px;
+    padding: 30px;
+}
+
+.face:hover {
+   -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.instagram:hover {
+    -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2); 
+} 
+.github:hover {
+    -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2); 
+} 
+.notion:hover {
+    -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2); 
+} 
+
+.main__text_inner {
+    /* display: block; */
+    width: 540px;
+    padding-left: 350px;
+    text-align: center;
+}
+
+.main__btn {
+    margin: 0 auto;
+    margin-top: 15px ;
+    text-align: center;
+}
+
+
+.btn-1:hover {
+    background-color: chartreuse;
+}
+
+.container {
+    margin-left: 180px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 1050px;
+    height: 150px;
+    border-style: solid;
+}
+
+.cont__header {
+    margin-bottom: 10px;
+    padding-top: 5px;
+    color: rgb(229, 231, 221);
+    width: 1050px;
+    height: 36px;
+    background-color: rgb(73, 67, 67);
+    text-align: center
+}
+
+.cont__body {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    width: 1440px;
+    height: 180px;
+    padding-top: 0;
+    background-color: rgb(73, 67, 67);
+    color: rgb(229, 231, 221);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer__title {
+    padding: 3px;
+    color: rgb(229, 231, 221);
+}
+
+.logo-apple,
+.logo-armani,
+.logo-tesla,
+.logo-cola,
+.logo-toyota {
+    width: 30px;
+    height: 20px;
+}
+
+.footer__links {
+    
+    /* display: inline; */
+    /* display: flex; */
+    align-items:center;
+    padding-bottom: 35px;
+
+}
