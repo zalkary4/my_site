@@ -143,14 +143,14 @@ body {
 .logo-armani,
 .logo-tesla,
 .logo-cola,
-.logo-toyota {
-    width: 30px;
-    height: 20px;
+.logo-toyota 
+{
+    padding: 35px;
 }
 
 .footer__links {
     
-    /* display: inline; */
+    display:list-item;
     /* display: flex; */
     align-items:center;
     padding-bottom: 35px;
